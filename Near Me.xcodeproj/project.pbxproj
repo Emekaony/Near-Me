@@ -11,6 +11,8 @@
 		4EEAE9D7299A1DF800D5C768 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEAE9D6299A1DF800D5C768 /* SceneDelegate.swift */; };
 		4EEAE9D9299A1DF800D5C768 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEAE9D8299A1DF800D5C768 /* ViewController.swift */; };
 		4EEAE9DE299A1DFA00D5C768 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EEAE9DD299A1DFA00D5C768 /* Assets.xcassets */; };
+		4EEAE9EA299A1FB000D5C768 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4EEAE9E8299A1FB000D5C768 /* README.md */; };
+		4EEAE9EB299A1FB000D5C768 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 4EEAE9E9299A1FB000D5C768 /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		4EEAE9D8299A1DF800D5C768 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4EEAE9DD299A1DFA00D5C768 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4EEAE9E2299A1DFA00D5C768 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EEAE9E8299A1FB000D5C768 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		4EEAE9E9299A1FB000D5C768 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				4EEAE9D4299A1DF800D5C768 /* AppDelegate.swift */,
 				4EEAE9D6299A1DF800D5C768 /* SceneDelegate.swift */,
 				4EEAE9D8299A1DF800D5C768 /* ViewController.swift */,
+				4EEAE9E9299A1FB000D5C768 /* LICENSE */,
+				4EEAE9E8299A1FB000D5C768 /* README.md */,
 				4EEAE9DD299A1DFA00D5C768 /* Assets.xcassets */,
 				4EEAE9E2299A1DFA00D5C768 /* Info.plist */,
 			);
@@ -119,6 +125,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EEAE9EB299A1FB000D5C768 /* LICENSE in Resources */,
+				4EEAE9EA299A1FB000D5C768 /* README.md in Resources */,
 				4EEAE9DE299A1DFA00D5C768 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
