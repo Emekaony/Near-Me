@@ -8,7 +8,13 @@
 import UIKit
 import MapKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITextFieldDelegate {
+    
+    /*
+     
+     Todo: Detect when the map is touched and dismiss the keyboard then
+     
+     */
     
     lazy var mapView: MKMapView = {
         let map = MKMapView()
@@ -26,8 +32,11 @@ class ViewController: UIViewController {
         searchTextField.leftView = UIView(frame: CGRect(x: 0, y: 0, width: 10, height: 0))
         searchTextField.leftViewMode = .always
         searchTextField.translatesAutoresizingMaskIntoConstraints = false
+        searchTextField.delegate = self
+        
         return searchTextField
     }()
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -57,7 +66,11 @@ class ViewController: UIViewController {
         mapView.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
         mapView.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
     }
-
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        // I want the keyboard to dismiss when I press the go
+        textField.resignFirstResponder()
+    }
 
 }
 
